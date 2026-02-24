@@ -9,27 +9,155 @@
 </head>
 <body>
     <header>
-        <h1>Feedback Intents</h1>
+        <h1>Feedback Intents Guide</h1>
     </header>
     <main>
-        <section>
-            <h2>What are the Feedback Intents?</h2>
-            <ul>
-                <li><strong>Advice:</strong> Offers guidance or suggestions to aid decision-making.</li>
-                <li><strong>Appreciation:</strong> Expresses gratitude for someone's actions or contributions.</li>
-                <li><strong>Coaching:</strong> Helps improve skills by providing specific guidance.</li>
-                <li><strong>Criticism:</strong> Highlights a perceived shortcoming constructively.</li>
-                <li><strong>Encouragement:</strong> Motivates someone and inspires confidence.</li>
-                <li><strong>Evaluation:</strong> Assesses quality or value against a standard.</li>
-                <li><strong>Praise:</strong> Acknowledges an achievement or quality positively.</li>
-                <li><strong>Psychological Evaluation:</strong> Makes judgments about someone's character or emotions.</li>
-                <li><strong>Interpersonal Feedback:</strong> Explains how someone's behavior impacts others.</li>
-            </ul>
+        <section class="hero">
+            <h2>Understanding Different Types of Feedback</h2>
+            <p>Feedback comes in many forms, each with different intentions and impacts. Learn to recognize them, understand their purpose, and use them effectively in your workplace communication.</p>
         </section>
-        <a href="index.html" class="button">Back to Game</a>
+
+        <section class="intent-grid">
+            <!-- Positive Feedback (Green) -->
+            <div class="intent-card positive" data-intent="appreciation">
+                <div class="card-header">
+                    <span class="icon">🙏</span>
+                    <h3>Appreciation</h3>
+                    <span class="tag positive-tag">Positive</span>
+                </div>
+                <p class="definition">Expressing gratitude for effort or specific actions.</p>
+                <div class="details">
+                    <strong>Goal:</strong> Build relationship "glue" and make the person feel seen.<br>
+                    <strong class="pro-text">Pro-Tip:</strong> Be specific. Instead of "Thanks," say "Thanks for staying late to fix that bug."
+                </div>
+            </div>
+
+            <div class="intent-card positive" data-intent="praise">
+                <div class="card-header">
+                    <span class="icon">⭐</span>
+                    <h3>Praise</h3>
+                    <span class="tag positive-tag">Positive</span>
+                </div>
+                <p class="definition">A positive acknowledgement of a job well done.</p>
+                <div class="details">
+                    <strong>Goal:</strong> Reinforce a successful behavior so it happens again.<br>
+                    <strong class="pro-text">Pro-Tip:</strong> Praise in public, criticize in private.
+                </div>
+            </div>
+
+            <div class="intent-card positive" data-intent="encouragement">
+                <div class="card-header">
+                    <span class="icon">💪</span>
+                    <h3>Encouragement</h3>
+                    <span class="tag positive-tag">Positive</span>
+                </div>
+                <p class="definition">Providing support and confidence during a challenge.</p>
+                <div class="details">
+                    <strong>Goal:</strong> Give someone the "emotional fuel" to keep going through a hard task.<br>
+                    <strong class="pro-text">Pro-Tip:</strong> Best used when someone is struggling or trying something brand new.
+                </div>
+            </div>
+
+            <!-- Growth Feedback (Blue/Purple) -->
+            <div class="intent-card growth" data-intent="advice">
+                <div class="card-header">
+                    <span class="icon">💡</span>
+                    <h3>Advice</h3>
+                    <span class="tag growth-tag">Growth</span>
+                </div>
+                <p class="definition">Suggestions or guidance on how to handle a situation.</p>
+                <div class="details">
+                    <strong>Goal:</strong> Offer a shortcut or a new perspective based on your experience.<br>
+                    <strong class="watch-text">Watch Out:</strong> Unsolicited advice can feel like criticism. Always ask "Can I offer a suggestion?" first.
+                </div>
+            </div>
+
+            <div class="intent-card growth" data-intent="coaching">
+                <div class="card-header">
+                    <span class="icon">🎯</span>
+                    <h3>Coaching</h3>
+                    <span class="tag growth-tag">Growth</span>
+                </div>
+                <p class="definition">Guidance focused on developing a person's skills.</p>
+                <div class="details">
+                    <strong>Goal:</strong> Help someone grow their own capability for the future.<br>
+                    <strong class="pro-text">Pro-Tip:</strong> Coaching is about asking the right questions, not just giving the right answers.
+                </div>
+            </div>
+
+            <div class="intent-card growth" data-intent="criticism">
+                <div class="card-header">
+                    <span class="icon">📋</span>
+                    <h3>Criticism</h3>
+                    <span class="tag growth-tag">Growth</span>
+                </div>
+                <p class="definition">Pointing out where something fell short of expectations.</p>
+                <div class="details">
+                    <strong>Goal:</strong> Correct a behavior or result that is currently insufficient.<br>
+                    <strong class="watch-text">Watch Out:</strong> Focus on the work, not the person. Avoid using "Always" or "Never."
+                </div>
+            </div>
+
+            <div class="intent-card growth" data-intent="evaluation">
+                <div class="card-header">
+                    <span class="icon">📊</span>
+                    <h3>Evaluation</h3>
+                    <span class="tag growth-tag">Growth</span>
+                </div>
+                <p class="definition">Measuring performance against a clear, set standard.</p>
+                <div class="details">
+                    <strong>Goal:</strong> Provide a "scorecard" of where a person stands (e.g., quarterly reviews).<br>
+                    <strong class="watch-text">Watch Out:</strong> Evaluation without coaching leaves the person knowing what is wrong but not how to fix it.
+                </div>
+            </div>
+
+            <div class="intent-card growth" data-intent="interpersonal">
+                <div class="card-header">
+                    <span class="icon">🤝</span>
+                    <h3>Interpersonal Feedback</h3>
+                    <span class="tag growth-tag">Growth</span>
+                </div>
+                <p class="definition">Sharing how someone's behavior impacts you specifically.</p>
+                <div class="details">
+                    <strong>Goal:</strong> Clear the air and resolve friction in a relationship.<br>
+                    <strong class="pro-text">Pro-Tip:</strong> Use "I" statements. "When you do X, I feel Y."
+                </div>
+            </div>
+
+            <div class="intent-card growth" data-intent="observation">
+                <div class="card-header">
+                    <span class="icon">👁️</span>
+                    <h3>Observation</h3>
+                    <span class="tag growth-tag">Growth</span>
+                </div>
+                <p class="definition">Stating objective facts without adding a judgment.</p>
+                <div class="details">
+                    <strong>Goal:</strong> Establish a "shared reality" before giving feedback.<br>
+                    <strong class="pro-text">Pro-Tip:</strong> Observations are things a camera could record. "You were 10 minutes late" is an observation. Not really feedback, but can be a good starting point for a feedback conversation.
+                </div>
+            </div>
+
+            <!-- Avoid (Red/Orange) -->
+            <div class="intent-card evil" data-intent="psychological">
+                <div class="card-header">
+                    <span class="icon">⚠️</span>
+                    <h3>Psychological Evaluation</h3>
+                    <span class="tag evil-tag">Avoid</span>
+                </div>
+                <p class="definition">Judging someone's character, motives, or personality.</p>
+                <div class="details">
+                    <strong>Goal:</strong> (Avoid this) Often used to "label" or pathologize others.<br>
+                    <strong class="warning-text">Warning (Evil Feedback):</strong> This is often "masked" feedback used to bully. Avoid diagnosing your colleagues' personalities.
+                </div>
+            </div>
+        </section>
+
+        <div class="back-button-container">
+            <a href="index.html" class="button">← Back to Game</a>
+        </div>
     </main>
     <footer>
-        <p>Learn more about feedback with this guide.</p>
+        <p>Master these feedback types to become a better communicator and leader.</p>
     </footer>
 </body>
 </html>

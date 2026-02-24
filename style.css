@@ -127,3 +127,206 @@ button:hover {
     visibility: visible;
     opacity: 1;
 }
+
+/* Intents Page Styles */
+
+.hero {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    background: linear-gradient(135deg, #388e3c 0%, #2e7d32 100%);
+    color: white;
+    border-radius: 8px;
+}
+
+.hero h2 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.intent-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1400px;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.intent-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-left: 5px solid #ddd;
+    position: relative;
+}
+
+.intent-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.intent-card.positive {
+    border-left-color: #4CAF50;
+}
+
+.intent-card.positive:hover {
+    background-color: #f1f8f6;
+}
+
+.intent-card.growth {
+    border-left-color: #6366f1;
+}
+
+.intent-card.growth:hover {
+    background-color: #f0f4ff;
+}
+
+.intent-card.evil {
+    border-left-color: #ff6b6b;
+}
+
+.intent-card.evil:hover {
+    background-color: #fff5f5;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.card-header .icon {
+    font-size: 2rem;
+    min-width: 2.5rem;
+}
+
+.card-header h3 {
+    margin: 0;
+    flex: 1;
+    min-width: 150px;
+    text-align: left;
+}
+
+.tag {
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.positive-tag {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.growth-tag {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+.evil-tag {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.intent-card .definition {
+    font-size: 1rem;
+    color: #555;
+    margin: 0.5rem 0 1rem 0;
+    font-style: italic;
+}
+
+.details {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.details strong {
+    color: #222;
+}
+
+.pro-text {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.watch-text {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+.warning-text {
+    color: #c41e3a;
+    font-weight: bold;
+}
+
+.back-button-container {
+    margin: 2rem 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2e7d32;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .intent-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .card-header h3 {
+        text-align: left;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
