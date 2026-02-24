@@ -330,3 +330,211 @@ footer {
         font-size: 1rem;
     }
 }
+
+/* Candor Gap Page Styles */
+
+.candor-hero {
+    background: linear-gradient(135deg, #c41e3a 0%, #8b1426 100%);
+    color: white;
+}
+
+.candor-hero blockquote {
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.candor-hero blockquote p {
+    margin: 0.5rem 0;
+}
+
+.candor-hero blockquote p:first-child {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.content-section {
+    width: 100%;
+    max-width: 900px;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.content-section h2 {
+    color: #2c3e50;
+    border-bottom: 3px solid #388e3c;
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content-section h2:first-child {
+    margin-top: 0;
+}
+
+.content-section p {
+    line-height: 1.8;
+    color: #555;
+    font-size: 1.05rem;
+}
+
+.subsection {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    border-left: 4px solid #ff6b6b;
+}
+
+.subsection h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.subsection p {
+    margin: 0.5rem 0;
+}
+
+.subsection ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+
+.subsection li {
+    padding: 0.5rem 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.comparison-table thead {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.comparison-table th {
+    padding: 1.2rem;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid #388e3c;
+}
+
+.comparison-table td {
+    padding: 1.2rem;
+    border-bottom: 1px solid #eee;
+    color: #555;
+    line-height: 1.6;
+}
+
+.comparison-table tr:last-child td {
+    border-bottom: none;
+}
+
+.comparison-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.comparison-table td:first-child {
+    font-style: italic;
+    color: #c41e3a;
+    font-weight: 500;
+}
+
+.antidote-section {
+    background: linear-gradient(135deg, #d4edda 0%, #c3e9cb 100%);
+    border-left: 4px solid #28a745;
+    border-radius: 8px;
+}
+
+.antidote-section h2 {
+    color: #155724;
+    border-bottom-color: #28a745;
+}
+
+.antidote-section p {
+    color: #155724;
+}
+
+.sources-section {
+    background-color: #f0f4ff;
+    border-left: 4px solid #6366f1;
+}
+
+.sources-section h2 {
+    border-bottom-color: #6366f1;
+}
+
+.sources-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 0 0;
+}
+
+.sources-list li {
+    padding: 0.8rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    line-height: 1.8;
+    color: #555;
+}
+
+.sources-list li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #6366f1;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    opacity: 0.95;
+    margin: 0.5rem 0 0 0;
+}
+
+/* Mobile responsiveness for Candor Gap */
+@media (max-width: 768px) {
+    .content-section {
+        padding: 1.5rem;
+    }
+
+    .subsection {
+        padding: 1rem;
+    }
+
+    .comparison-table {
+        font-size: 0.9rem;
+    }
+
+    .comparison-table th,
+    .comparison-table td {
+        padding: 0.8rem;
+    }
+
+    .candor-hero blockquote {
+        font-size: 1.1rem;
+    }
+
+    .candor-hero blockquote p:first-child {
+        font-size: 1.3rem;
+    }
+}
