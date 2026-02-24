@@ -1,0 +1,22 @@
+{
+    "questions": [
+        {
+            "text": "Thanks for showing me how to commit code. I had been trying for an hour and was nowhere near a solution when you came to help me.",
+            "correct": "Appreciation",
+            "options": [
+                "Appreciation",
+                "Praise",
+                "Encouragement"
+            ]
+        },
+        {
+            "text": "You need to listen better in meetings.",
+            "correct": "Criticism",
+            "options": [
+                "Advice",
+                "Criticism",
+                "Encouragement"
+            ]
+        }
+    ]
+}
