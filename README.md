@@ -2,6 +2,8 @@
 
 This is an interactive web-based game designed to help players develop skills in distinguishing between different types of workplace feedback.
 
+You can play this game [HERE!](https://feedback.codecadence.se).
+
 ## Overview
 
 The Feedback or Not Game challenges players to classify statements into categories such as Advice, Appreciation, Coaching, Criticism, Encouragement, Evaluation, Praise, Psychological Evaluation, Interpersonal Feedback, and more. The game includes questions marked with varying levels of appropriateness to help learners understand what constitutes constructive feedback versus problematic feedback patterns.
