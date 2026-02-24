@@ -1,0 +1,13 @@
+{
+    "intents": [
+        "Advice",
+        "Appreciation",
+        "Coaching",
+        "Criticism",
+        "Encouragement",
+        "Evaluation",
+        "Praise",
+        "Psychological Evaluation",
+        "Interpersonal Feedback"
+    ]
+}

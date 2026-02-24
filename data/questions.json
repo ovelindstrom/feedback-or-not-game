@@ -1,22 +1,387 @@
 {
     "questions": [
         {
-            "text": "Thanks for showing me how to commit code. I had been trying for an hour and was nowhere near a solution when you came to help me.",
+            "id": 100,
+            "text": "Thanks for doing the dishes.",
             "correct": "Appreciation",
-            "options": [
-                "Appreciation",
-                "Praise",
-                "Encouragement"
-            ]
+            "multipleCorrect": [],
+            "isEvil": false
         },
         {
+            "id": 103,
+            "text": "Let’s focus on refining your presentation skills step by step.",
+            "correct": "Coaching",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 106,
             "text": "You need to listen better in meetings.",
             "correct": "Criticism",
-            "options": [
-                "Advice",
-                "Criticism",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 109,
+            "text": "Don't let this setback discourage you—you’re doing great!",
+            "correct": "Encouragement",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 112,
+            "text": "Your progress on the project exceeded the expected timeline.",
+            "correct": "Evaluation",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 115,
+            "text": "That report was outstanding, fantastic job!",
+            "correct": "Praise",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 118,
+            "text": "You really struggle to handle conflict effectively.",
+            "correct": "Psychological Evaluation",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 121,
+            "text": "When you interrupt our meetings, it creates confusion and slows progress.",
+            "correct": "Interpersonal Feedback",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 124,
+            "text": "You asked two questions and answered them yourself before anyone else had a chance to answer.",
+            "correct": "Not Feedback (Observation)",
+            "multipleCorrect": [],
+            "isEvil": true,
+            "evilNote": "This is an observation that could be used as a starting point for feedback, but on its own it doesn't provide any guidance or judgment. It could be perceived as passive-aggressive or as a veiled criticism without offering any constructive advice."
+        },
+        {
+            "id": 127,
+            "text": "If I were you, I’d start preparing the slides at least a week in advance to avoid the last-minute rush.",
+            "correct": "Advice",
+            "multipleCorrect": [
+                "Criticism"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 130,
+            "text": "You might want to consider using a password manager to keep your credentials secure.",
+            "correct": "Advice",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 133,
+            "text": "I suggest you BCC the manager on these types of emails just to keep them in the loop.",
+            "correct": "Advice",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 136,
+            "text": "Have you thought about blocking out your calendar for deep work? It really helped me focus.",
+            "correct": "Advice",
+            "multipleCorrect": [
                 "Encouragement"
-            ]
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 139,
+            "text": "Thank you for jumping in to help with the client call today; your expertise really saved the deal.",
+            "correct": "Appreciation",
+            "multipleCorrect": [
+                "Praise"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 142,
+            "text": "I really appreciate you taking the time to explain the codebase to the new interns.",
+            "correct": "Appreciation",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 145,
+            "text": "Thanks for keeping the kitchen clean this week; it makes a huge difference for everyone.",
+            "correct": "Appreciation",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 148,
+            "text": "I’m grateful for your patience while I was navigating that difficult personal situation.",
+            "correct": "Appreciation",
+            "multipleCorrect": [
+                "Interpersonal Feedback"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 151,
+            "text": "Next time, let's look at how you can structure the opening of your pitch to grab attention faster.",
+            "correct": "Coaching",
+            "multipleCorrect": [
+                "Advice"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 154,
+            "text": "I’d like to work with you on refining your delegation skills so you can focus more on strategy.",
+            "correct": "Coaching",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 157,
+            "text": "Think about how you could have handled that objection differently to keep the conversation open.",
+            "correct": "Coaching",
+            "multipleCorrect": [
+                "Criticism"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 160,
+            "text": "Let’s pair up on the next module so I can show you some shortcuts in the new framework.",
+            "correct": "Coaching",
+            "multipleCorrect": [
+                "Encouragement"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 163,
+            "text": "Your report was disorganized and contained several factual errors that we had to fix.",
+            "correct": "Criticism",
+            "multipleCorrect": [
+                "Evaluation"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 166,
+            "text": "Your lack of contribution during the brainstorming session was quite noticeable.",
+            "correct": "Criticism",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 169,
+            "text": "You’ve got this! The progress you've made over the last month has been incredible.",
+            "correct": "Encouragement",
+            "multipleCorrect": [
+                "Praise"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 172,
+            "text": "Don't let this setback discourage you; I've seen what you're capable of when you're at your best.",
+            "correct": "Encouragement",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 175,
+            "text": "Keep going—you are so close to cracking the solution to this bug.",
+            "correct": "Encouragement",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 178,
+            "text": "I believe in your ability to lead this project, even if it feels a bit overwhelming right now.",
+            "correct": "Encouragement",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 181,
+            "text": "Based on our metrics, you met all your KPIs for the quarter with a 10% margin.",
+            "correct": "Evaluation",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 184,
+            "text": "Your performance on the last project was slightly below the expected standard for your seniority.",
+            "correct": "Evaluation",
+            "multipleCorrect": [
+                "Criticism"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 187,
+            "text": "You’ve consistently delivered high-quality work that aligns perfectly with our brand guidelines.",
+            "correct": "Evaluation",
+            "multipleCorrect": [
+                "Praise"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 190,
+            "text": "In comparison to the rest of the team, your output volume is currently in the top tier.",
+            "correct": "Evaluation",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 193,
+            "text": "Fantastic job on that presentation! You really knocked it out of the park.",
+            "correct": "Praise",
+            "multipleCorrect": [
+                "Appreciation"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 196,
+            "text": "You are such a natural leader; the way you handled that conflict was brilliant.",
+            "correct": "Praise",
+            "multipleCorrect": [
+                "Evaluation"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 199,
+            "text": "That was an incredibly elegant solution to a very messy problem.",
+            "correct": "Praise",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 202,
+            "text": "You have a real gift for making complex topics sound simple.",
+            "correct": "Praise",
+            "multipleCorrect": [],
+            "isEvil": false
+        },
+        {
+            "id": 205,
+            "text": "When you interrupt me in front of clients, I feel undermined and it makes me lose my confidence.",
+            "correct": "Interpersonal Feedback",
+            "multipleCorrect": [
+                "Criticism"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 208,
+            "text": "I felt really supported when you spoke up for my idea after everyone else dismissed it.",
+            "correct": "Interpersonal Feedback",
+            "multipleCorrect": [
+                "Appreciation"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 211,
+            "text": "It makes me feel anxious when you change the project deadlines without discussing it with me first.",
+            "correct": "Interpersonal Feedback",
+            "multipleCorrect": [
+                "Criticism"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 214,
+            "text": "I really enjoy collaborating with you because your energy makes the work feel less like a chore.",
+            "correct": "Interpersonal Feedback",
+            "multipleCorrect": [
+                "Praise"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 217,
+            "text": "I think you should come into the office earlier.",
+            "correct": "Advice",
+            "multipleCorrect": [
+                "Criticism"
+            ],
+            "isEvil": false
+        },
+        {
+            "id": 220,
+            "text": "You never seem to be ready when the meeting starts, and it’s disrespectful to everyone's time.",
+            "correct": "Criticism",
+            "multipleCorrect": [
+                "Interpersonal Feedback"
+            ],
+            "isEvil": true,
+            "evilNote": "This uses shaming language ('disrespectful') rather than focusing on the impact of the behavior."
+        },
+        {
+            "id": 223,
+            "text": "Your deep-seated fear of rejection is preventing you from taking the risks necessary for growth.",
+            "correct": "Psychological Evaluation",
+            "multipleCorrect": [
+                "Criticism"
+            ],
+            "isEvil": true,
+            "evilNote": "Armchair psychology. Assigning deep-seated psychological motives to a peer is often a form of boundary-crossing or bullying."
+        },
+        {
+            "id": 226,
+            "text": "You seem to have an avoidant personality when it comes to dealing with direct conflict.",
+            "correct": "Psychological Evaluation",
+            "multipleCorrect": [],
+            "isEvil": true,
+            "evilNote": "Labeling a colleague with a 'personality type' to explain away their behavior is reductive and unprofessional."
+        },
+        {
+            "id": 229,
+            "text": "I think your subconscious bias against the marketing team is clouding your judgment.",
+            "correct": "Psychological Evaluation",
+            "multipleCorrect": [
+                "Criticism"
+            ],
+            "isEvil": true,
+            "evilNote": "This is a 'masked' criticism that attacks the person's character and subconscious rather than their specific actions."
+        },
+        {
+            "id": 232,
+            "text": "Your need for constant external validation is starting to affect the team's velocity.",
+            "correct": "Psychological Evaluation",
+            "multipleCorrect": [
+                "Criticism"
+            ],
+            "isEvil": true,
+            "evilNote": "Pathologizing a teammate's work style ('need for validation') is a high-conflict feedback tactic."
+        },
+        {
+            "id": 235,
+            "text": "The tone of your last email was overly aggressive and unprofessional.",
+            "correct": "Criticism",
+            "multipleCorrect": [],
+            "isEvil": true,
+            "evilNote": "Using subjective, loaded labels like 'aggressive' without providing specific examples can feel like an attack rather than constructive help."
+        },
+        {
+            "id": 238,
+            "text": "Your need to fit in is preventing you from generating good results.",
+            "correct": "Psychological Evaluation",
+            "multipleCorrect": [
+                "Criticism"
+            ],
+            "isEvil": true,
+            "evilNote": "This focuses on a perceived character flaw rather than objective performance metrics."
         }
     ]
 }
