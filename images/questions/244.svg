@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Engineer pointing at a code train and a wobbly test">
+  <rect width="320" height="180" fill="#fffef8"/>
+  <g fill="none" stroke="#1a1a1a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    
+  <circle cx="70" cy="86" r="11"/>
+    <path d="M70 97 v28"/>
+    <path d="M70 125 l-12 22 M70 125 l12 22"/>
+    <path d="M56 114 l-8 14 M84 112 l22 -6"/>
+    <path d="M66 85 h.1 M74 85 h.1" stroke-width="3"/>
+  <path d="M150 118 h130 l-16 28 h-98 z"/>
+  <circle cx="176" cy="146" r="7"/><circle cx="246" cy="146" r="7"/>
+  <path d="M168 96 l18 -28 h70 l18 28"/>
+  <path d="M186 84 h18 M214 84 h10" stroke-width="1.6"/>
+  <path d="M248 70 q16 8 8 22" stroke-width="1.6"/>
+  <path d="M252 92 v10" stroke-width="1.6"/>
+
+  </g>
+</svg>

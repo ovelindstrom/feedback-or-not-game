@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180">
+  <rect width="320" height="180" fill="#fffef8"/>
+  <g fill="none" stroke="#1a1a1a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="70" cy="100" r="11"/>
+    <path d="M70 111 v28 M70 139 l-12 22 M70 139 l12 22"/>
+    <path d="M56 128 l-10 16 M84 128 l10 16"/>
+    <path d="M66 99 h.1 M74 99 h.1" stroke-width="3"/>
+<circle cx="140" cy="96" r="11"/>
+    <path d="M140 107 v28 M140 135 l-12 22 M140 135 l12 22"/>
+    <path d="M126 124 l-10 16 M154 124 l10 16"/>
+    <path d="M136 95 h.1 M144 95 h.1" stroke-width="3"/>
+<circle cx="210" cy="100" r="11"/>
+    <path d="M210 111 v28 M210 139 l-12 22 M210 139 l12 22"/>
+    <path d="M196 128 l-10 16 M224 128 l10 16"/>
+    <path d="M206 99 h.1 M214 99 h.1" stroke-width="3"/>
+<circle cx="260" cy="104" r="11"/>
+    <path d="M260 115 v28 M260 143 l-12 22 M260 143 l12 22"/>
+    <path d="M246 132 l-10 16 M274 132 l10 16"/>
+    <path d="M256 103 h.1 M264 103 h.1" stroke-width="3"/>
+<rect x="40" y="36" width="240" height="18"/>
+<circle cx="160" cy="150" r="8"/>
+  </g>
+</svg>

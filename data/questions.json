@@ -5,56 +5,72 @@
             "text": "Thanks for doing the dishes.",
             "correct": "Appreciation",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/100.svg",
+            "imageAlt": "A stick figure at a kitchen counter with plates and rising steam."
         },
         {
             "id": 103,
             "text": "Let’s focus on refining your presentation skills step by step.",
             "correct": "Coaching",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/103.svg",
+            "imageAlt": "A stick figure pointing at a slide deck on a screen."
         },
         {
             "id": 106,
             "text": "You need to listen better in meetings.",
             "correct": "Criticism",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/106.svg",
+            "imageAlt": "Two stick figures in a meeting, one gesturing toward a whiteboard."
         },
         {
             "id": 109,
             "text": "Don't let this setback discourage you—you’re doing great!",
             "correct": "Encouragement",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/109.svg",
+            "imageAlt": "A stick figure waving beside a small hill and a sun."
         },
         {
             "id": 112,
             "text": "Your progress on the project exceeded the expected timeline.",
             "correct": "Evaluation",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/112.svg",
+            "imageAlt": "A line chart climbing across a project board."
         },
         {
             "id": 115,
             "text": "That report was outstanding, fantastic job!",
             "correct": "Praise",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/115.svg",
+            "imageAlt": "A stick figure holding up a report with a star nearby."
         },
         {
             "id": 118,
             "text": "You really struggle to handle conflict effectively.",
             "correct": "Psychological Evaluation",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/118.svg",
+            "imageAlt": "Two stick figures facing each other, one with a thought bubble."
         },
         {
             "id": 121,
             "text": "When you interrupt our meetings, it creates confusion and slows progress.",
             "correct": "Interpersonal Feedback",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/121.svg",
+            "imageAlt": "Three stick figures at a meeting table, one mid-gesture."
         },
         {
             "id": 124,
@@ -62,7 +78,9 @@
             "correct": "Not Feedback (Observation)",
             "multipleCorrect": [],
             "isEvil": true,
-            "evilNote": "This is an observation that could be used as a starting point for feedback, but on its own it doesn't provide any guidance or judgment. It could be perceived as passive-aggressive or as a veiled criticism without offering any constructive advice."
+            "evilNote": "This is an observation that could be used as a starting point for feedback, but on its own it doesn't provide any guidance or judgment. It could be perceived as passive-aggressive or as a veiled criticism without offering any constructive advice.",
+            "image": "images/questions/124.svg",
+            "imageAlt": "A stick figure with two speech bubbles, both coming from the same person."
         },
         {
             "id": 127,
@@ -71,21 +89,27 @@
             "multipleCorrect": [
                 "Criticism"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/127.svg",
+            "imageAlt": "A stick figure pointing at slides and a calendar."
         },
         {
             "id": 130,
             "text": "You might want to consider using a password manager to keep your credentials secure.",
             "correct": "Advice",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/130.svg",
+            "imageAlt": "A stick figure pointing at a phone with a lock on the screen."
         },
         {
             "id": 133,
             "text": "I suggest you BCC the manager on these types of emails just to keep them in the loop.",
             "correct": "Advice",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/133.svg",
+            "imageAlt": "An email window with an extra address being added."
         },
         {
             "id": 136,
@@ -94,7 +118,9 @@
             "multipleCorrect": [
                 "Encouragement"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/136.svg",
+            "imageAlt": "A stick figure pointing at a calendar with one block filled in."
         },
         {
             "id": 139,
@@ -103,21 +129,27 @@
             "multipleCorrect": [
                 "Praise"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/139.svg",
+            "imageAlt": "Two stick figures on a call beside a client document."
         },
         {
             "id": 142,
             "text": "I really appreciate you taking the time to explain the codebase to the new interns.",
             "correct": "Appreciation",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/142.svg",
+            "imageAlt": "A stick figure pointing at code while another watches."
         },
         {
             "id": 145,
             "text": "Thanks for keeping the kitchen clean this week; it makes a huge difference for everyone.",
             "correct": "Appreciation",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/145.svg",
+            "imageAlt": "A tidy kitchen counter and a stick figure with a cloth."
         },
         {
             "id": 148,
@@ -126,7 +158,9 @@
             "multipleCorrect": [
                 "Interpersonal Feedback"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/148.svg",
+            "imageAlt": "Two stick figures, one holding a small note, a thought bubble overhead."
         },
         {
             "id": 151,
@@ -135,14 +169,18 @@
             "multipleCorrect": [
                 "Advice"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/151.svg",
+            "imageAlt": "A stick figure pointing at the top line of a pitch slide."
         },
         {
             "id": 154,
             "text": "I’d like to work with you on refining your delegation skills so you can focus more on strategy.",
             "correct": "Coaching",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/154.svg",
+            "imageAlt": "A stick figure beside three task boxes on a board."
         },
         {
             "id": 157,
@@ -151,7 +189,9 @@
             "multipleCorrect": [
                 "Criticism"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/157.svg",
+            "imageAlt": "Two stick figures talking, with a curved arrow between them."
         },
         {
             "id": 160,
@@ -160,7 +200,9 @@
             "multipleCorrect": [
                 "Encouragement"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/160.svg",
+            "imageAlt": "Two stick figures sharing a keyboard in front of a code window."
         },
         {
             "id": 163,
@@ -169,14 +211,18 @@
             "multipleCorrect": [
                 "Evaluation"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/163.svg",
+            "imageAlt": "A document with a red X in the corner."
         },
         {
             "id": 166,
             "text": "Your lack of contribution during the brainstorming session was quite noticeable.",
             "correct": "Criticism",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/166.svg",
+            "imageAlt": "Four stick figures at a whiteboard, one standing still."
         },
         {
             "id": 169,
@@ -185,35 +231,45 @@
             "multipleCorrect": [
                 "Praise"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/169.svg",
+            "imageAlt": "A stick figure looking up a rising line."
         },
         {
             "id": 172,
             "text": "Don't let this setback discourage you; I've seen what you're capable of when you're at your best.",
             "correct": "Encouragement",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/172.svg",
+            "imageAlt": "A stick figure beside a dip in a line and a small chart."
         },
         {
             "id": 175,
             "text": "Keep going—you are so close to cracking the solution to this bug.",
             "correct": "Encouragement",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/175.svg",
+            "imageAlt": "A stick figure at a terminal with a squiggle still on the screen."
         },
         {
             "id": 178,
             "text": "I believe in your ability to lead this project, even if it feels a bit overwhelming right now.",
             "correct": "Encouragement",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/178.svg",
+            "imageAlt": "A stick figure pointing at a project board."
         },
         {
             "id": 181,
             "text": "Based on our metrics, you met all your KPIs for the quarter with a 10% margin.",
             "correct": "Evaluation",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/181.svg",
+            "imageAlt": "A metrics sheet with rows of numbers and a small circle."
         },
         {
             "id": 184,
@@ -222,7 +278,9 @@
             "multipleCorrect": [
                 "Criticism"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/184.svg",
+            "imageAlt": "A chart with a dashed target line and a wandering actual line."
         },
         {
             "id": 187,
@@ -231,14 +289,18 @@
             "multipleCorrect": [
                 "Praise"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/187.svg",
+            "imageAlt": "A document with a check mark at the bottom."
         },
         {
             "id": 190,
             "text": "In comparison to the rest of the team, your output volume is currently in the top tier.",
             "correct": "Evaluation",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/190.svg",
+            "imageAlt": "A bar chart with one tall bar."
         },
         {
             "id": 193,
@@ -247,7 +309,9 @@
             "multipleCorrect": [
                 "Appreciation"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/193.svg",
+            "imageAlt": "A stick figure in front of a presentation screen and a star."
         },
         {
             "id": 196,
@@ -256,21 +320,27 @@
             "multipleCorrect": [
                 "Evaluation"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/196.svg",
+            "imageAlt": "Three stick figures under a line, one pointing."
         },
         {
             "id": 199,
             "text": "That was an incredibly elegant solution to a very messy problem.",
             "correct": "Praise",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/199.svg",
+            "imageAlt": "A tangled line straightening into a neat box."
         },
         {
             "id": 202,
             "text": "You have a real gift for making complex topics sound simple.",
             "correct": "Praise",
             "multipleCorrect": [],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/202.svg",
+            "imageAlt": "A dense page of marks turning into a short simple box."
         },
         {
             "id": 205,
@@ -279,7 +349,9 @@
             "multipleCorrect": [
                 "Criticism"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/205.svg",
+            "imageAlt": "Three stick figures at a client table, one gesturing."
         },
         {
             "id": 208,
@@ -288,7 +360,9 @@
             "multipleCorrect": [
                 "Appreciation"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/208.svg",
+            "imageAlt": "A stick figure raising a hand beside a small idea card."
         },
         {
             "id": 211,
@@ -297,7 +371,9 @@
             "multipleCorrect": [
                 "Criticism"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/211.svg",
+            "imageAlt": "A calendar with a dashed date and a stick figure looking on."
         },
         {
             "id": 214,
@@ -306,7 +382,9 @@
             "multipleCorrect": [
                 "Praise"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/214.svg",
+            "imageAlt": "Two stick figures waving beside a shared task card."
         },
         {
             "id": 217,
@@ -315,7 +393,9 @@
             "multipleCorrect": [
                 "Criticism"
             ],
-            "isEvil": false
+            "isEvil": false,
+            "image": "images/questions/217.svg",
+            "imageAlt": "An office door, a stick figure, and a clock."
         },
         {
             "id": 220,
@@ -325,7 +405,9 @@
                 "Interpersonal Feedback"
             ],
             "isEvil": true,
-            "evilNote": "This uses shaming language ('disrespectful') rather than focusing on the impact of the behavior."
+            "evilNote": "This uses shaming language ('disrespectful') rather than focusing on the impact of the behavior.",
+            "image": "images/questions/220.svg",
+            "imageAlt": "Stick figures at a meeting table under a clock."
         },
         {
             "id": 223,
@@ -335,7 +417,9 @@
                 "Criticism"
             ],
             "isEvil": true,
-            "evilNote": "Armchair psychology. Assigning deep-seated psychological motives to a peer is often a form of boundary-crossing or bullying."
+            "evilNote": "Armchair psychology. Assigning deep-seated psychological motives to a peer is often a form of boundary-crossing or bullying.",
+            "image": "images/questions/223.svg",
+            "imageAlt": "A stick figure, a thought bubble, and a rising line."
         },
         {
             "id": 226,
@@ -343,7 +427,9 @@
             "correct": "Psychological Evaluation",
             "multipleCorrect": [],
             "isEvil": true,
-            "evilNote": "Labeling a colleague with a 'personality type' to explain away their behavior is reductive and unprofessional."
+            "evilNote": "Labeling a colleague with a 'personality type' to explain away their behavior is reductive and unprofessional.",
+            "image": "images/questions/226.svg",
+            "imageAlt": "Two stick figures, one a step back from the other."
         },
         {
             "id": 229,
@@ -353,7 +439,9 @@
                 "Criticism"
             ],
             "isEvil": true,
-            "evilNote": "This is a 'masked' criticism that attacks the person's character and subconscious rather than their specific actions."
+            "evilNote": "This is a 'masked' criticism that attacks the person's character and subconscious rather than their specific actions.",
+            "image": "images/questions/229.svg",
+            "imageAlt": "A stick figure pointing at a board labeled with rows of marks."
         },
         {
             "id": 232,
@@ -363,7 +451,9 @@
                 "Criticism"
             ],
             "isEvil": true,
-            "evilNote": "Pathologizing a teammate's work style ('need for validation') is a high-conflict feedback tactic."
+            "evilNote": "Pathologizing a teammate's work style ('need for validation') is a high-conflict feedback tactic.",
+            "image": "images/questions/232.svg",
+            "imageAlt": "Three stick figures and a small circle overhead."
         },
         {
             "id": 235,
@@ -371,7 +461,9 @@
             "correct": "Criticism",
             "multipleCorrect": [],
             "isEvil": true,
-            "evilNote": "Using subjective, loaded labels like 'aggressive' without providing specific examples can feel like an attack rather than constructive help."
+            "evilNote": "Using subjective, loaded labels like 'aggressive' without providing specific examples can feel like an attack rather than constructive help.",
+            "image": "images/questions/235.svg",
+            "imageAlt": "An email window with one heavy line of text."
         },
         {
             "id": 238,
@@ -381,7 +473,105 @@
                 "Criticism"
             ],
             "isEvil": true,
-            "evilNote": "This focuses on a perceived character flaw rather than objective performance metrics."
+            "evilNote": "This focuses on a perceived character flaw rather than objective performance metrics.",
+            "image": "images/questions/238.svg",
+            "imageAlt": "A row of stick figures under a shared bar."
+        },
+        {
+            "id": 241,
+            "text": "The deploy pipeline failed twice this morning. The last green build was yesterday at 16:40.",
+            "correct": "Not Feedback (Observation)",
+            "multipleCorrect": [],
+            "isEvil": false,
+            "image": "images/questions/241.svg",
+            "imageAlt": "A stick-figure engineer staring at a build monitor with a red X and a clock."
+        },
+        {
+            "id": 244,
+            "text": "If I were you, I'd put the flaky integration test behind a retry before the next release train.",
+            "correct": "Advice",
+            "multipleCorrect": [],
+            "isEvil": false,
+            "image": "images/questions/244.svg",
+            "imageAlt": "A stick figure pointing at a train made of brackets while a flask wobbles."
+        },
+        {
+            "id": 247,
+            "text": "Thanks for staying on the incident bridge until the pager went quiet. I know that ate your evening.",
+            "correct": "Appreciation",
+            "multipleCorrect": [],
+            "isEvil": false,
+            "image": "images/questions/247.svg",
+            "imageAlt": "Two stick figures on a late call, one holding a quiet pager."
+        },
+        {
+            "id": 250,
+            "text": "Let's pair on the next PR and walk the diff together so the review comments get smaller over time.",
+            "correct": "Coaching",
+            "multipleCorrect": [],
+            "isEvil": false,
+            "image": "images/questions/250.svg",
+            "imageAlt": "Two stick figures sharing one keyboard in front of a diff."
+        },
+        {
+            "id": 253,
+            "text": "You keep merging without waiting for the required reviewer, and it is making the rest of us look careless.",
+            "correct": "Criticism",
+            "multipleCorrect": [
+                "Interpersonal Feedback"
+            ],
+            "isEvil": true,
+            "evilNote": "This piles a character judgment ('careless') onto the team instead of naming the specific process miss and its effect.",
+            "image": "images/questions/253.svg",
+            "imageAlt": "A stick figure stamping a pull request while another waits."
+        },
+        {
+            "id": 256,
+            "text": "That outage was rough, but you've shipped three clean rollbacks since. Don't let one red dashboard talk you out of the next change.",
+            "correct": "Encouragement",
+            "multipleCorrect": [],
+            "isEvil": false,
+            "image": "images/questions/256.svg",
+            "imageAlt": "A stick figure looking at a dashboard that is mostly green with one red square."
+        },
+        {
+            "id": 259,
+            "text": "Against the sprint goal, four of the five acceptance criteria are met. The fifth is still blocked on the API contract.",
+            "correct": "Evaluation",
+            "multipleCorrect": [],
+            "isEvil": false,
+            "image": "images/questions/259.svg",
+            "imageAlt": "A checklist with several ticks and one box still open beside a plug."
+        },
+        {
+            "id": 262,
+            "text": "The way you wrote that incident timeline is the clearest write-up this team has produced all quarter.",
+            "correct": "Praise",
+            "multipleCorrect": [],
+            "isEvil": false,
+            "image": "images/questions/262.svg",
+            "imageAlt": "A stick figure holding a timeline with a small star nearby."
+        },
+        {
+            "id": 265,
+            "text": "You are clearly conflict-avoidant, which is why you never push back in architecture reviews.",
+            "correct": "Psychological Evaluation",
+            "multipleCorrect": [
+                "Criticism"
+            ],
+            "isEvil": true,
+            "evilNote": "Diagnosing a personality trait ('conflict-avoidant') substitutes armchair psychology for a specific, observable behavior.",
+            "image": "images/questions/265.svg",
+            "imageAlt": "Stick figures at an architecture board, one with a question-mark bubble."
+        },
+        {
+            "id": 268,
+            "text": "When you answer in the thread before I've finished the question, I lose the thread and the rest of the channel goes quiet.",
+            "correct": "Interpersonal Feedback",
+            "multipleCorrect": [],
+            "isEvil": false,
+            "image": "images/questions/268.svg",
+            "imageAlt": "A chat window where one reply lands before the other line is finished."
         }
     ]
 }

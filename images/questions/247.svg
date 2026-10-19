@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Two engineers after a pager goes quiet">
+  <rect width="320" height="180" fill="#fffef8"/>
+  <g fill="none" stroke="#1a1a1a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    
+  <circle cx="86" cy="78" r="11"/>
+    <path d="M86 89 v28"/>
+    <path d="M86 117 l-12 22 M86 117 l12 22"/>
+    <path d="M72 106 l-6 12 M96 104 l8 10"/>
+    <path d="M82 77 h.1 M90 77 h.1" stroke-width="3"/>
+  <circle cx="210" cy="78" r="11"/>
+    <path d="M210 89 v28"/>
+    <path d="M210 117 l-12 22 M210 117 l12 22"/>
+    <path d="M196 106 l-10 14 M222 100 q8 -16 16 -4"/>
+    <path d="M206 77 h.1 M214 77 h.1" stroke-width="3"/>
+  <rect x="118" y="108" width="28" height="18" rx="3"/>
+  <path d="M132 108 v-8"/>
+  <path d="M40 28 h70 M230 24 h60" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <circle cx="36" cy="30" r="2" fill="#1a1a1a"/>
+  <circle cx="300" cy="22" r="2" fill="#1a1a1a"/>
+  <path d="M128 150 q20 10 40 0" stroke-width="1.4"/>
+
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="A chat reply landing before the question is finished">
+  <rect width="320" height="180" fill="#fffef8"/>
+  <g fill="none" stroke="#1a1a1a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    
+  <rect x="28" y="28" width="264" height="124" rx="6"/>
+  <path d="M28 52 h264"/>
+  <circle cx="46" cy="40" r="4"/><circle cx="62" cy="40" r="4"/>
+  <path d="M48 78 h90 q8 0 8 8 v16 q0 8 -8 8 h-24 l-12 12 v-12 h-54 q-8 0 -8 -8 v-16 q0 -8 8 -8 z"/>
+  <path d="M168 70 h92 q8 0 8 8 v14 q0 8 -8 8 h-70"/>
+  <path d="M176 118 h40" stroke-dasharray="4 3"/>
+
+  </g>
+</svg>

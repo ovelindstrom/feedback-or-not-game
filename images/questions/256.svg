@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="A dashboard that is mostly green with one red square">
+  <rect width="320" height="180" fill="#fffef8"/>
+  <g fill="none" stroke="#1a1a1a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    
+  <circle cx="78" cy="82" r="11"/>
+    <path d="M78 93 v28"/>
+    <path d="M78 121 l-12 22 M78 121 l12 22"/>
+    <path d="M64 110 l-10 14 M90 104 q8 -16 16 -4"/>
+    <path d="M74 81 h.1 M82 81 h.1" stroke-width="3"/>
+  <rect x="150" y="40" width="130" height="90" rx="4"/>
+  <rect x="166" y="56" width="22" height="22" fill="#2e7d32" stroke="#2e7d32"/>
+  <rect x="196" y="56" width="22" height="22" fill="#2e7d32" stroke="#2e7d32"/>
+  <rect x="226" y="56" width="22" height="22" fill="#c0392b" stroke="#c0392b"/>
+  <rect x="166" y="86" width="22" height="22" fill="#2e7d32" stroke="#2e7d32"/>
+  <rect x="196" y="86" width="22" height="22" fill="#2e7d32" stroke="#2e7d32"/>
+  <rect x="226" y="86" width="22" height="22" fill="#2e7d32" stroke="#2e7d32"/>
+
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What this site stores - Feedback or Not</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%234CAF50'/%3E%3Cpath d='M30 20 Q30 35 45 35 L55 35 Q70 35 70 20' stroke='white' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3Cpath d='M35 40 L35 55 M50 40 L50 55 M65 40 L65 55' stroke='white' stroke-width='2.5' stroke-linecap='round'/%3E%3Cpath d='M30 65 L50 75 L70 65' stroke='white' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>What stays in this browser</h1>
+        <p class="subtitle">Local storage, and nothing else</p>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>No account, no server, no cookies</h2>
+            <p>The game keeps two notes in your browser's localStorage so the next round can mix in questions you have already seen and compare how you read them. That data never leaves this browser.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>seenQuestions</h2>
+            <p>A list of question ids from rounds you finished. The game uses it to prefer unseen questions and to bring a few familiar ones back. It does not store the question text, your answer, or whether you were right.</p>
+            <p>Example: <code>[100, 130, 241]</code></p>
+
+            <h2>feedbackAttemptHistory</h2>
+            <p>Up to the last 240 answers, saved only when a round ends. Each entry is the intent that was correct, the intent you picked, whether that pick counted, and whether the line was marked as a problematic pattern. There is no name, timestamp, or question text.</p>
+            <p>Example:</p>
+            <pre><code>[
+  {
+    "correct": "Coaching",
+    "selected": "Advice",
+    "accepted": false,
+    "isEvil": false
+  }
+]</code></pre>
+            <p>The results page uses this to say which intents are holding steady across rounds. One round is not enough for that comparison, so the first game only reports what happened in that game.</p>
+
+            <h2>What is not stored</h2>
+            <ul>
+                <li>Nothing is sent to a server. Hosting this site does not receive these keys.</li>
+                <li>No cookies, accounts, or analytics identifiers are set by the game.</li>
+                <li>Answers from a round you leave unfinished are not saved.</li>
+            </ul>
+
+            <h2>How to remove it</h2>
+            <p>Clear site data for this origin in your browser, or use the button. It only removes the two keys this game writes.</p>
+            <p><button id="forget-me" type="button">Forget me</button></p>
+            <p id="forget-status" class="hint" role="status"></p>
+            <pre><code>localStorage.removeItem('seenQuestions');
+localStorage.removeItem('feedbackAttemptHistory');</code></pre>
+            <p>Clearing it resets spaced repetition and the across-rounds summary. The question bank itself is unchanged.</p>
+        </section>
+
+        <div class="back-button-container">
+            <a href="index.html" class="button">← Back to Game</a>
+        </div>
+    </main>
+    <script>
+        document.getElementById('forget-me').addEventListener('click', () => {
+            localStorage.removeItem('seenQuestions');
+            localStorage.removeItem('feedbackAttemptHistory');
+            const status = document.getElementById('forget-status');
+            status.textContent = 'Those two keys are gone from this browser.';
+        });
+    </script>
+    <footer>
+        <p>Made with ❤️ for learning.</p>
+        <p>The repo is available on <a href="https://github.com/ovelindstrom/feedback-or-not-game" target="_blank">GitHub</a>.</p>
+        <p>Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.</p>
+        <p><a href="storage.html">What this site stores</a></p>
+    </footer>
+</body>
+</html>

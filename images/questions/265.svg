@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="A quiet engineer at an architecture review">
+  <rect width="320" height="180" fill="#fffef8"/>
+  <g fill="none" stroke="#1a1a1a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    
+  <rect x="150" y="36" width="140" height="80" rx="3"/>
+  <path d="M166 56 h40 l20 24 h-28"/>
+  <path d="M210 56 h60"/>
+  <circle cx="196" cy="100" r="8"/>
+  <circle cx="64" cy="96" r="11"/>
+    <path d="M64 107 v28"/>
+    <path d="M64 135 l-12 22 M64 135 l12 22"/>
+    <path d="M50 124 l-10 16 M78 124 l10 16"/>
+    <path d="M60 95 h.1 M68 95 h.1" stroke-width="3"/>
+  <circle cx="118" cy="100" r="11"/>
+    <path d="M118 111 v28"/>
+    <path d="M118 139 l-12 22 M118 139 l12 22"/>
+    <path d="M104 128 l-8 14 M132 126 l22 -6"/>
+    <path d="M114 99 h.1 M122 99 h.1" stroke-width="3"/>
+  <path d="M40 40 q24 -16 40 6 q-20 4 -28 16 q-16 -6 -12 -22 z"/>
+  <path d="M52 42 h.1 M62 48 h.1 M56 56 h.1" stroke-width="3"/>
+
+  </g>
+</svg>

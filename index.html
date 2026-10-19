@@ -9,38 +9,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="backdrop" aria-hidden="true"></div>
     <header>
+        <p class="eyebrow">Workplace communication, minus the corporate fog</p>
         <h1>Feedback or Not</h1>
     </header>
     <main>
-        <section id="welcome-screen" class="screen">
+        <section id="welcome-screen" class="screen card-panel">
             <h2>Welcome to the Feedback Game</h2>
             <p>Can you identify the intent behind different types of feedback?</p>
-            <p>Use the right arrow to advance to the next question.</p>
+            <p class="hint">Use the right arrow to advance to the next question.</p>
             <button id="start-game">Start the Game</button>
             <p>To read about the different types of feedback intentions, visit <a href="intents.html">this page</a>.</p>
             <p>Learn more about the Candor Gap <a href="candorgap.html">here</a>.</p>
         </section>
 
         <section id="game-screen" class="screen hidden">
-            <div id="question-container">
+            <div id="question-container" class="card-panel">
+                <figure id="question-figure" class="hidden">
+                    <img id="question-image" alt="" width="320" height="180">
+                </figure>
                 <p id="question-text">Question will appear here.</p>
             </div>
-            <div id="options-container">
-                <!-- Options will be dynamically generated here -->
+            <div id="play-columns">
+                <div id="options-container">
+                    <!-- Options will be dynamically generated here -->
+                </div>
+                <aside id="answer-feedback" aria-live="polite"></aside>
             </div>
         </section>
 
-        <section id="results-screen" class="screen hidden">
-            <h2>Game Over!</h2>
+        <section id="results-screen" class="screen card-panel hidden">
+            <h2>Feedback on your feedback</h2>
             <p id="results-text">Your results will appear here.</p>
+            <p id="results-narrative" class="results-narrative"></p>
+            <div id="results-report"></div>
             <button id="restart-game">Play Again</button>
         </section>
     </main>
     <footer>
         <p>Made with ❤️ for learning.</p>
         <p>The repo is available on <a href="https://github.com/ovelindstrom/feedback-or-not-game" target="_blank">GitHub</a>.</p>
-        <p>Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"></a>CC BY 4.0</a></p>
+        <p>Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.</p>
+        <p><a href="storage.html">What this site stores</a></p>
     </footer>
     <script src="script.js"></script>
 </body>

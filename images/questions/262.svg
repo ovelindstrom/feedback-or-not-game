@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="An engineer holding a clear incident timeline">
+  <rect width="320" height="180" fill="#fffef8"/>
+  <g fill="none" stroke="#1a1a1a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    
+  <circle cx="70" cy="86" r="11"/>
+    <path d="M70 97 v28"/>
+    <path d="M70 125 l-12 22 M70 125 l12 22"/>
+    <path d="M56 114 l-6 12 M80 112 l8 10"/>
+    <path d="M66 85 h.1 M74 85 h.1" stroke-width="3"/>
+  <rect x="130" y="48" width="150" height="84" rx="3"/>
+  <path d="M146 96 h28 l16 -28 l16 40 l14 -18 h28"/>
+  <path d="M248 36 l4 10 l10 2 l-8 6 l3 10 l-9 -6 l-9 6 l3 -10 l-8 -6 l10 -2 z" fill="none"/>
+
+  </g>
+</svg>

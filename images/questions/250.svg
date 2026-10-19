@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Pair programming in front of a pull request diff">
+  <rect width="320" height="180" fill="#fffef8"/>
+  <g fill="none" stroke="#1a1a1a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    
+  <circle cx="92" cy="70" r="11"/>
+    <path d="M92 81 v28"/>
+    <path d="M92 109 l-12 22 M92 109 l12 22"/>
+    <path d="M76 100 l8 8 M108 100 l-8 8"/>
+    <path d="M88 69 h.1 M96 69 h.1" stroke-width="3"/>
+  <circle cx="150" cy="74" r="11"/>
+    <path d="M150 85 v28"/>
+    <path d="M150 113 l-12 22 M150 113 l12 22"/>
+    <path d="M134 104 l8 8 M166 104 l-8 8"/>
+    <path d="M146 73 h.1 M154 73 h.1" stroke-width="3"/>
+  <rect x="70" y="118" width="120" height="10" rx="2"/>
+  <rect x="200" y="40" width="96" height="100" rx="3"/>
+  <path d="M212 58 h72 M212 74 h48 M212 90 h60" stroke="#2e7d32"/>
+  <path d="M212 106 h40" stroke="#c0392b"/>
+
+  </g>
+</svg>

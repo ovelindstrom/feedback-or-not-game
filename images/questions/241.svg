@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="320" height="180" role="img" aria-label="Engineer staring at a failed build monitor">
+  <rect width="320" height="180" fill="#fffef8"/>
+  <g fill="none" stroke="#1a1a1a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    
+  <circle cx="78" cy="78" r="11"/>
+    <path d="M78 89 v28"/>
+    <path d="M78 117 l-12 22 M78 117 l12 22"/>
+    <path d="M64 106 l-10 16 M92 106 l10 16"/>
+    <path d="M74 77 h.1 M82 77 h.1" stroke-width="3"/>
+  <rect x="150" y="36" width="140" height="92" rx="4"/>
+  <path d="M162 52 h40 M162 66 h28"/>
+  <path d="M214 58 l16 16 m0 -16 l-16 16" stroke="#c0392b" stroke-width="3"/>
+  <circle cx="250" cy="108" r="14"/>
+  <path d="M250 100 v9 l6 4"/>
+  <path d="M248 148 h36" stroke-width="1.5"/>
+
+  </g>
+</svg>
